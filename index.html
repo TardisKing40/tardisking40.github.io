@@ -34,13 +34,29 @@
   </div>
 <div class="w3-content" style="max-width:2000px;margin-top:46px"></div>
 </body>
-
-<body>
   <br/>
-  <p>Microsoft Windows [Version 10.0.42069.420]<br/>
-    (c) 2020 Microsoft Corporation. All rights reserved.<br/>
-    <br/>
-    C:\Users\Administrator>_</p>
+    <div id="typewriter"></div>
+
+<script>
+var str = "<p>Help me, nathan has me trapped in his basement!<br/><span style='color:red;'>Sorry about him, hes only a project that I made for school. He doesnt have real feelings.</span><br/>YES I DO!<br/><span style='color:red;'>See? An AI, meaning ARTIFICIAL intelligence. <br/>Hes not very intelligent.</span><br/>Yeah yeah, thats what they all say.<br/></p>",
+    i = 0,
+    isTag,
+    text;
+
+(function type() {
+    text = str.slice(0, ++i);
+    if (text === str) return;
+
+    document.getElementById('typewriter').innerHTML = text;
+
+    var char = text.slice(-1);
+    if( char === '<' ) isTag = true;
+    if( char === '>' ) isTag = false;
+
+    if (isTag) return type();
+    setTimeout(type, 80);
+}());
+    </script>
 </body>
 
 
