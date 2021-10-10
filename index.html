@@ -43,7 +43,8 @@ C:\Users\Administrator>start program.exe
 
   <div id="typewriter" style="color: #37d537"></div>
 <script>
-var str = "<br/><a>starting . . . <br/>program ready.<br/></a><br/>",
+var txtFile = new XMLHttpRequest();
+var str = txtFile.open("GET", "./beemovie.txt", true),
     i = 0,
     isTag,
     text;
