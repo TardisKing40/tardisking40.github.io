@@ -1,5 +1,1 @@
-# TardisKing40
-My Personal Website used generally for all things a website is used for.
-
-See these at:
-https://tardisking40.ml
+Why the hell would you not want your own website?
