@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: tardisking40.github.io
+Token: 99768991ea7a430661272e6a4e4a589206ee4215d9ad4609d40c564bfd5dedeb
