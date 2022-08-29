@@ -19,3 +19,13 @@
     @keyframes blinker-two {  
     100% { opacity: 0; }
     }
+
+body {
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    color: #40ff40;
+}
+
+a {
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+  }
+  

@@ -1,0 +1,23 @@
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid green;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: green; }
+  }
+
+  .container{
+    display: inline-block;
+  }
